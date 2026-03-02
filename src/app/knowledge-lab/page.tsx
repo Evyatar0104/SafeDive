@@ -109,7 +109,7 @@ export default function KnowledgeLab() {
     };
 
     return (
-        <div className="flex flex-col min-h-[100dvh] relative overflow-x-hidden bg-background text-zinc-900 dark:text-zinc-100 selection:bg-primary/20">
+        <div className="flex flex-col min-h-[100dvh] relative overflow-x-hidden bg-background text-foreground selection:bg-primary/20">
             <ActiveBackground />
 
             {currentArticle ? (
@@ -158,7 +158,7 @@ export default function KnowledgeLab() {
 
                                 {/* Body */}
                                 <div className="prose prose-zinc dark:prose-invert max-w-none 
-                    prose-p:leading-relaxed prose-p:text-[1.1rem] prose-p:font-medium text-zinc-800 dark:text-zinc-200">
+                    prose-p:leading-relaxed prose-p:text-[1.1rem] prose-p:font-medium text-foreground/90">
                                     {currentArticle.article_body.split('\n').map((paragraph, i) => (
                                         <p key={i} className="mb-5 last:mb-0" dangerouslySetInnerHTML={{
                                             __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-foreground">$1</strong>')

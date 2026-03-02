@@ -16,7 +16,7 @@ export function ActiveBackground() {
                     repeat: Infinity,
                     ease: "easeInOut",
                 }}
-                className="absolute top-[-10%] left-[-10%] w-[70vw] h-[70vw] rounded-full bg-blue-500/40 dark:bg-blue-600/30 blur-[100px]"
+                className="absolute top-[-10%] left-[-10%] w-[70vw] h-[70vw] rounded-full bg-blue-500/20 dark:bg-blue-600/30 blur-[100px]"
             />
             <motion.div
                 animate={{
@@ -30,7 +30,7 @@ export function ActiveBackground() {
                     ease: "easeInOut",
                     delay: 2,
                 }}
-                className="absolute top-[10%] right-[-20%] w-[80vw] h-[80vw] rounded-full bg-sky-500/30 dark:bg-sky-600/30 blur-[120px]"
+                className="absolute top-[10%] right-[-20%] w-[80vw] h-[80vw] rounded-full bg-sky-500/15 dark:bg-sky-600/30 blur-[120px]"
             />
             <motion.div
                 animate={{
@@ -44,10 +44,10 @@ export function ActiveBackground() {
                     ease: "easeInOut",
                     delay: 5,
                 }}
-                className="absolute bottom-[-10%] left-[10%] w-[75vw] h-[75vw] rounded-full bg-blue-400/30 dark:bg-blue-500/20 blur-[100px]"
+                className="absolute bottom-[-10%] left-[10%] w-[75vw] h-[75vw] rounded-full bg-blue-400/15 dark:bg-blue-500/20 blur-[100px]"
             />
             {/* Background overlay for blending - further reduced for vibrancy */}
-            <div className="absolute inset-0 bg-background/20 backdrop-blur-[20px] dark:backdrop-blur-[40px]" />
+            <div className="absolute inset-0 bg-background/60 dark:bg-background/20 backdrop-blur-[30px] dark:backdrop-blur-[40px]" />
         </div>
     );
 }

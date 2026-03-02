@@ -49,7 +49,6 @@ export default function Escapism() {
                             className="object-cover transition-transform duration-1000 ease-out hover:scale-105"
                             priority
                             sizes="(max-width: 768px) 100vw, 400px"
-                            unoptimized // Allow external URLs easily for MVP
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end">
                             <h2 className="text-white text-3xl font-bold mb-2">

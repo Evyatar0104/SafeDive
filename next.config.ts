@@ -15,6 +15,18 @@ const withPWA = withPWAInit({
 
 const nextConfig: NextConfig = {
   turbopack: {},
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.pollinations.ai',
+      }
+    ],
+  },
   async headers() {
     return [
       {
@@ -22,7 +34,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: "script-src 'self' 'unsafe-eval' 'unsafe-inline' https: http:; object-src 'none'; base-uri 'self';",
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://images.unsplash.com https://image.pollinations.ai; font-src 'self' data:; connect-src 'self' https://chess-puzzles.p.rapidapi.com; object-src 'none'; base-uri 'self';",
           },
         ],
       },
