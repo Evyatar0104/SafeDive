@@ -1,0 +1,1206 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/1280px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+      "location": "הר מאטרהורן",
+      "country": "שוויץ"
+    },
+    {
+      "id": 2,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/1280px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg",
+      "location": "מקדש פושימי אינארי",
+      "country": "יפן"
+    },
+    {
+      "id": 3,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg/1280px-Tunnel_View%2C_Yosemite_Valley%2C_Yosemite_NP_-_Diliff.jpg",
+      "location": "עמק יוסמיטי",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 4,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Scottish_Highlands_and_Lowlands.png",
+      "location": "הרמות הסקוטיות",
+      "country": "סקוטלנד"
+    },
+    {
+      "id": 5,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_Bled_from_the_Mountain.jpg/1280px-Lake_Bled_from_the_Mountain.jpg",
+      "location": "אגם בלד",
+      "country": "סלובניה"
+    },
+    {
+      "id": 6,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/1280px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+      "location": "מגדל אייפל",
+      "country": "צרפת"
+    },
+    {
+      "id": 7,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Perito_Moreno_Glacier_2023.jpg/1280px-Perito_Moreno_Glacier_2023.jpg",
+      "location": "קרחון פריטו מורנו",
+      "country": "ארגנטינה"
+    },
+    {
+      "id": 8,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/1280px-Geirangerfjord_.jpg",
+      "location": "פיורד גייירנגר",
+      "country": "נורווגיה"
+    },
+    {
+      "id": 9,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Faloria_Cortina_d%27Ampezzo_10.jpg/1280px-Faloria_Cortina_d%27Ampezzo_10.jpg",
+      "location": "הרי הדולומיטים",
+      "country": "איטליה"
+    },
+    {
+      "id": 10,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1280px-Flag_of_Maldives.svg.png",
+      "location": "חוף מלדיביים",
+      "country": "האיים המלדיביים"
+    },
+    {
+      "id": 11,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Amalfi_Coast_%28Italy%2C_October_2020%29_-_75_%2850558355441%29.jpg/1280px-Amalfi_Coast_%28Italy%2C_October_2020%29_-_75_%2850558355441%29.jpg",
+      "location": "חוף אמלפי",
+      "country": "איטליה"
+    },
+    {
+      "id": 12,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/1280px-Ha_Long_Bay_in_2019.jpg",
+      "location": "מפרץ הא-לונג",
+      "country": "וייטנאם"
+    },
+    {
+      "id": 13,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/1280px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg",
+      "location": "הר פוג'י",
+      "country": "יפן"
+    },
+    {
+      "id": 14,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Reynisfjara_Beach_Looking_West_Towards_Dyrh%C3%B3laey.jpg/1280px-Reynisfjara_Beach_Looking_West_Towards_Dyrh%C3%B3laey.jpg",
+      "location": "חוף רייניספיארה",
+      "country": "איסלנד"
+    },
+    {
+      "id": 15,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lavender_field_and_Mont_Ventoux.jpg/1280px-Lavender_field_and_Mont_Ventoux.jpg",
+      "location": "שדות לבנדר בפרובנס",
+      "country": "צרפת"
+    },
+    {
+      "id": 16,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1280px-Taj_Mahal_%28Edited%29.jpeg",
+      "location": "טאג' מהאל",
+      "country": "הודו"
+    },
+    {
+      "id": 17,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "location": "החומה הסינית",
+      "country": "סין"
+    },
+    {
+      "id": 18,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/1280px-Machu_Picchu%2C_2023_%28012%29.jpg",
+      "location": "מאצ'ו פיצ'ו",
+      "country": "פרו"
+    },
+    {
+      "id": 19,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/1280px-Al_Deir_Petra.JPG",
+      "location": "פטרה",
+      "country": "ירדן"
+    },
+    {
+      "id": 20,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/1280px-Pyramids_of_the_Giza_Necropolis.jpg",
+      "location": "הפירמידות בגיזה",
+      "country": "מצרים"
+    },
+    {
+      "id": 21,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg",
+      "location": "הקולוסיאום",
+      "country": "איטליה"
+    },
+    {
+      "id": 22,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/1280px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+      "location": "האקרופוליס",
+      "country": "יוון"
+    },
+    {
+      "id": 23,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/1280px-Stonehenge2007_07_30.jpg",
+      "location": "סטונהנג'",
+      "country": "אנגליה"
+    },
+    {
+      "id": 24,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/1280px-Canyon_River_Tree_%28165872763%29.jpeg",
+      "location": "הגרנד קניון",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 25,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/1280px-3Falls_Niagara.jpg",
+      "location": "מפלי הניאגרה",
+      "country": "קנדה/ארצות הברית"
+    },
+    {
+      "id": 26,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/1280px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg",
+      "location": "מפלי ויקטוריה",
+      "country": "זמביה/זימבבואה"
+    },
+    {
+      "id": 27,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Iguazu_Cataratas2.jpg/1280px-Iguazu_Cataratas2.jpg",
+      "location": "מפלי איגואסו",
+      "country": "ברזיל/ארגנטינה"
+    },
+    {
+      "id": 28,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg/1280px-ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg",
+      "location": "שונית המחסום הגדולה",
+      "country": "אוסטרליה"
+    },
+    {
+      "id": 29,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG/1280px-Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG",
+      "location": "איי גלפגוס",
+      "country": "אקוודור"
+    },
+    {
+      "id": 30,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serengeti-Landscape-2012.JPG/1280px-Serengeti-Landscape-2012.JPG",
+      "location": "הפארק הלאומי סרנגטי",
+      "country": "טנזניה"
+    },
+    {
+      "id": 31,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grand_Canyon_of_yellowstone.jpg",
+      "location": "ילוסטון",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 32,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Lake_Louise_in_Banff_National_Park%2C_boat_view_2.jpg/1280px-Lake_Louise_in_Banff_National_Park%2C_boat_view_2.jpg",
+      "location": "אגם לואיז",
+      "country": "קנדה"
+    },
+    {
+      "id": 33,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chionistra_winter_1.JPG/1280px-Chionistra_winter_1.JPG",
+      "location": "הפארק הלאומי טרודוס",
+      "country": "קפריסין"
+    },
+    {
+      "id": 34,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg/1280px-Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg",
+      "location": "הפארק הלאומי טורס דל פיינה",
+      "country": "צ'ילה"
+    },
+    {
+      "id": 35,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/View_in_Plitvice_Lakes_National_Park.jpg/1280px-View_in_Plitvice_Lakes_National_Park.jpg",
+      "location": "הפארק הלאומי פליטביצה",
+      "country": "קרואטיה"
+    },
+    {
+      "id": 36,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Crater_Lake_winter_pano2.jpg/1280px-Crater_Lake_winter_pano2.jpg",
+      "location": "הפארק הלאומי קרטר לייק",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 37,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Redwood_National_Park%2C_fog_in_the_forest.jpg",
+      "location": "הפארק הלאומי רדווד",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 38,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zion_angels_landing_view.jpg",
+      "location": "הפארק הלאומי ציון",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 39,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/1280px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg",
+      "location": "הפארק הלאומי ברייס קניון",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 40,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Delicate_arch_sunset.jpg/1280px-Delicate_arch_sunset.jpg",
+      "location": "הפארק הלאומי ארצ'ס",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 41,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mountain_Goat_at_Hidden_Lake.jpg/1280px-Mountain_Goat_at_Hidden_Lake.jpg",
+      "location": "הפארק הלאומי גליישר",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 42,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Moraine_Lake_17092005.jpg/1280px-Moraine_Lake_17092005.jpg",
+      "location": "הפארק הלאומי באנף",
+      "country": "קנדה"
+    },
+    {
+      "id": 43,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Athabasca_Glacier_on_the_Columbia_Icefield.jpg/1280px-Athabasca_Glacier_on_the_Columbia_Icefield.jpg",
+      "location": "הפארק הלאומי ג'אספר",
+      "country": "קנדה"
+    },
+    {
+      "id": 44,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Takakkaw_Falls_-_panoramio_%281%29.jpg/1280px-Takakkaw_Falls_-_panoramio_%281%29.jpg",
+      "location": "הפארק הלאומי יוחו",
+      "country": "קנדה"
+    },
+    {
+      "id": 45,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Amazon17_%285641020319%29.jpg/1280px-Amazon17_%285641020319%29.jpg",
+      "location": "האמזונאס",
+      "country": "ברזיל"
+    },
+    {
+      "id": 46,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Atacama.png",
+      "location": "מדבר אטקמה",
+      "country": "צ'ילה"
+    },
+    {
+      "id": 47,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Salar_Uyuni_au01.jpg",
+      "location": "סלאר דה אויוני",
+      "country": "בוליביה"
+    },
+    {
+      "id": 48,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Roraima3_%2879%29.JPG/1280px-Roraima3_%2879%29.JPG",
+      "location": "הר רוריימה",
+      "country": "ונצואלה"
+    },
+    {
+      "id": 49,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Buddhist_monks_in_front_of_the_Angkor_Wat.jpg/1280px-Buddhist_monks_in_front_of_the_Angkor_Wat.jpg",
+      "location": "אנגקור ואט",
+      "country": "קמבודיה"
+    },
+    {
+      "id": 50,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pradaksina.jpg/1280px-Pradaksina.jpg",
+      "location": "בורובודור",
+      "country": "אינדונזיה"
+    },
+    {
+      "id": 51,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/1280px-Ha_Long_Bay_in_2019.jpg",
+      "location": "חא לונג ביי",
+      "country": "וייטנאם"
+    },
+    {
+      "id": 52,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Startrails_above_Gunung_Bromo_-_Indonesia.jpg/1280px-Startrails_above_Gunung_Bromo_-_Indonesia.jpg",
+      "location": "מערות פראננג",
+      "country": "תאילנד"
+    },
+    {
+      "id": 53,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dramatic_karst_landscape_of_Phang_Nga_Bay%2C_Thailand.jpg/1280px-Dramatic_karst_landscape_of_Phang_Nga_Bay%2C_Thailand.jpg",
+      "location": "מפרץ פאנג נגה",
+      "country": "תאילנד"
+    },
+    {
+      "id": 54,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/KohPhiPhi.JPG/1280px-KohPhiPhi.JPG",
+      "location": "קופיפי",
+      "country": "תאילנד"
+    },
+    {
+      "id": 55,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Jiuqudong_2003-01.jpg",
+      "location": "טארוקו",
+      "country": "טאיוואן"
+    },
+    {
+      "id": 56,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Huangshan_pic_4.jpg/1280px-Huangshan_pic_4.jpg",
+      "location": "הר חואנגשן",
+      "country": "סין"
+    },
+    {
+      "id": 57,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Trolltunga_2017.jpg/1280px-Trolltunga_2017.jpg",
+      "location": "הלשון של הטרול",
+      "country": "נורווגיה"
+    },
+    {
+      "id": 58,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lyse_Fjord_et_Preikestolen.jpg/1280px-Lyse_Fjord_et_Preikestolen.jpg",
+      "location": "צוק הדרשן",
+      "country": "נורווגיה"
+    },
+    {
+      "id": 59,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gullfoss_from_the_Air_%28cropped%29.jpg/1280px-Gullfoss_from_the_Air_%28cropped%29.jpg",
+      "location": "מפל גולפוס",
+      "country": "איסלנד"
+    },
+    {
+      "id": 60,
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Blue_Lagoon_Main_Building.JPG/1280px-Blue_Lagoon_Main_Building.JPG",
+      "location": "הלגונה הכחולה",
+      "country": "איסלנד"
+    },
+    {
+      "id": 61,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%C3%9Eingvellir_from_the_information_centre.JPG/1280px-%C3%9Eingvellir_from_the_information_centre.JPG",
+      "location": "פארק טינגווטליר",
+      "country": "איסלנד"
+    },
+    {
+      "id": 62,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vatnaj%C3%B6kull.jpeg",
+      "location": "קרחון וואטנייקול",
+      "country": "איסלנד"
+    },
+    {
+      "id": 63,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2009_08_24_06262_Lucerne.jpg/1280px-2009_08_24_06262_Lucerne.jpg",
+      "location": "לוקרן",
+      "country": "שוויץ"
+    },
+    {
+      "id": 64,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Elbrus_view_on_the_mountains.jpg/1280px-Elbrus_view_on_the_mountains.jpg",
+      "location": "הרי הקווקז",
+      "country": "גיאורגיה"
+    },
+    {
+      "id": 65,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/View_of_Stepantsminda_09.23.jpg/1280px-View_of_Stepantsminda_09.23.jpg",
+      "location": "קזבגי",
+      "country": "גיאורגיה"
+    },
+    {
+      "id": 66,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gondola_Ride.jpg/1280px-Gondola_Ride.jpg",
+      "location": "מצודת גונדואה",
+      "country": "בריטניה"
+    },
+    {
+      "id": 67,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/1280px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+      "location": "אגם קומו",
+      "country": "איטליה"
+    },
+    {
+      "id": 68,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/La_Rocca_di_Manerba_del_Garda_con_l%27isola_dei_Conigli.jpg/1280px-La_Rocca_di_Manerba_del_Garda_con_l%27isola_dei_Conigli.jpg",
+      "location": "אגם גארדה",
+      "country": "איטליה"
+    },
+    {
+      "id": 69,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Theathres_of_Pompeii.jpg/1280px-Theathres_of_Pompeii.jpg",
+      "location": "פומפיי",
+      "country": "איטליה"
+    },
+    {
+      "id": 70,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Venezia_aerial_view.jpg/1280px-Venezia_aerial_view.jpg",
+      "location": "ונציה",
+      "country": "איטליה"
+    },
+    {
+      "id": 71,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/1280px-FirenzeDec092023_01.jpg",
+      "location": "פירנצה",
+      "country": "איטליה"
+    },
+    {
+      "id": 72,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Alps_aerial_1.jpg/1280px-Alps_aerial_1.jpg",
+      "location": "האלפים הצרפתיים",
+      "country": "צרפת"
+    },
+    {
+      "id": 73,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mont_Blanc_Aiguille.jpg",
+      "location": "מון בלאן",
+      "country": "צרפת/איטליה"
+    },
+    {
+      "id": 74,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Central_pyrenees.jpg",
+      "location": "הפירנאים",
+      "country": "ספרד/צרפת"
+    },
+    {
+      "id": 75,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/1280px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+      "location": "כנסיית סגרדה פמיליה",
+      "country": "ספרד"
+    },
+    {
+      "id": 76,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/1280px-Parc_guell_-_panoramio.jpg",
+      "location": "פארק גואל",
+      "country": "ספרד"
+    },
+    {
+      "id": 77,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1280px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+      "location": "אלהמברה",
+      "country": "ספרד"
+    },
+    {
+      "id": 78,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Atlas_mountains_aerial_1.jpg/1280px-Atlas_mountains_aerial_1.jpg",
+      "location": "הרי האטלס",
+      "country": "מרוקו"
+    },
+    {
+      "id": 79,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/1280px-Sahara_real_color.jpg",
+      "location": "סהרה",
+      "country": "מרוקו"
+    },
+    {
+      "id": 80,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Startrails_above_Gunung_Bromo_-_Indonesia.jpg/1280px-Startrails_above_Gunung_Bromo_-_Indonesia.jpg",
+      "location": "הפארק הלאומי מנובו-גונדה",
+      "country": "האקוודור"
+    },
+    {
+      "id": 81,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/1280px-Kilimanjaro_from_Amboseli.jpg",
+      "location": "הר קילימנג'רו",
+      "country": "טנזניה"
+    },
+    {
+      "id": 82,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Playa_Dias%2C_Cape_Point%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_103.jpg/1280px-Playa_Dias%2C_Cape_Point%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_103.jpg",
+      "location": "כף התקווה הטובה",
+      "country": "דרום אפריקה"
+    },
+    {
+      "id": 83,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/1280px-Table_Mountain_DanieVDM.jpg",
+      "location": "הר השולחן",
+      "country": "דרום אפריקה"
+    },
+    {
+      "id": 84,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Kruger_Zebra.JPG/1280px-Kruger_Zebra.JPG",
+      "location": "פארק קרוגר",
+      "country": "דרום אפריקה"
+    },
+    {
+      "id": 85,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Startrails_above_Gunung_Bromo_-_Indonesia.jpg/1280px-Startrails_above_Gunung_Bromo_-_Indonesia.jpg",
+      "location": "מדבר נמיב",
+      "country": "נמיביה"
+    },
+    {
+      "id": 86,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mt_Cook_LC0247.jpg/1280px-Mt_Cook_LC0247.jpg",
+      "location": "הר קוק",
+      "country": "ניו זيلנד"
+    },
+    {
+      "id": 87,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1280px-Milford_Sound_%28New_Zealand%29.JPG",
+      "location": "מילפורד סאונד",
+      "country": "ניו זילנד"
+    },
+    {
+      "id": 88,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/1280px-ULURU.jpg",
+      "location": "אולורו",
+      "country": "אוסטרליה"
+    },
+    {
+      "id": 89,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/1280px-Sydney_Australia._%2821339175489%29.jpg",
+      "location": "בית האופרה של סידני",
+      "country": "אוסטרליה"
+    },
+    {
+      "id": 90,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kakadu_2431.jpg",
+      "location": "פארק קקדו",
+      "country": "אוסטרליה"
+    },
+    {
+      "id": 91,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Tahiti.svg/1280px-Flag_of_Tahiti.svg.png",
+      "location": "טהיטי",
+      "country": "פולינזיה הצרפתית"
+    },
+    {
+      "id": 92,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bora_Bora_ISS006.jpg/1280px-Bora_Bora_ISS006.jpg",
+      "location": "בורה בורה",
+      "country": "פולינזיה הצרפתית"
+    },
+    {
+      "id": 93,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png",
+      "location": "פיג'י",
+      "country": "פיג'י"
+    },
+    {
+      "id": 94,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Easter_Island_5.jpg/1280px-Easter_Island_5.jpg",
+      "location": "האי הפסחא",
+      "country": "צ'ילה"
+    },
+    {
+      "id": 95,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/1280px-Flag_of_Hawaii.svg.png",
+      "location": "המפל הנסתר",
+      "country": "הוואי"
+    },
+    {
+      "id": 96,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Episode_4_of_Kilauea%27s_December_2024_eruption_2025-01-16.jpg/1280px-Episode_4_of_Kilauea%27s_December_2024_eruption_2025-01-16.jpg",
+      "location": "הר הגעש קילאוואה",
+      "country": "הוואי"
+    },
+    {
+      "id": 97,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bass_Harbor_Lighthouse_b.jpg/1280px-Bass_Harbor_Lighthouse_b.jpg",
+      "location": "הפארק הלאומי אקדיה",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 98,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Above_Gotham.jpg/1280px-Above_Gotham.jpg",
+      "location": "מנהטן",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 99,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/1280px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg",
+      "location": "פסל החירות",
+      "country": "ארצות הברית"
+    },
+    {
+      "id": 100,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/1280px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+      "location": "גשר שער הזהב",
+      "country": "ארצות הברית"
+    }
+  ],
+  "happy_news": [
+    {
+      "id": 1,
+      "title": "פנדה ענקית כבר לא בסכנת הכחדה",
+      "fact": "הודות למאמצי שימור אינטנסיביים, מספר הפנדות בטבע עלה משמעותית והן הוסרו מרשימת המינים בסכנת הכחדה חמורה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG"
+    },
+    {
+      "id": 2,
+      "title": "חתולים מגרגרים לריפוי",
+      "fact": "מחקרים מראים שגירגור של חתול בתדירות של 25-150 הרץ יכול לשפר את צפיפות העצם ולסייע בריפוי פצעים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1280px-Cat_August_2010-4.jpg"
+    },
+    {
+      "id": 3,
+      "title": "שירת הציפורים מחזקת את הנפש",
+      "fact": "האזנה לשירת ציפורים הוכחה כגורם המפחית חרדה ומשפר את מצב הרוח למשך שעות רבות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Eastern_towhee_in_JBWR_%2850084%29.webm/1280px--Eastern_towhee_in_JBWR_%2850084%29.webm.jpg"
+    },
+    {
+      "id": 4,
+      "title": "עצים מתקשרים דרך פטריות",
+      "fact": "יערות הם רשת חברתית: עצים מעבירים חומרי הזנה ואזהרות אחד לשני דרך רשת סבוכה של פטריות תת-קרקעיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mycorrhizal_network.svg/1280px-Mycorrhizal_network.svg.png"
+    },
+    {
+      "id": 5,
+      "title": "כלבים יודעים לזהות לב טוב",
+      "fact": "מחקרים מצביעים על כך שכלבים מסוגלים לזהות אנשים אמינים ויסרבו לעזור למי שמתנהג באנוכיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/1280px-Huskiesatrest.jpg"
+    },
+    {
+      "id": 6,
+      "title": "חזרתן של חיות הבר לאירופה",
+      "fact": "מספרי הזאבים, הדובים ושעילי-הבר נמצאים בעלייה מתמדת ברחבי אירופה, סימן להשתקמות הטבע הפראי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/1280px-Eurasian_wolf_2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "לוויתנים נגד התחממות",
+      "fact": "צואת לוויתנים מעודדת גידול פיטופלנקטון, הסופג כ-40% מפליטות הפחמן הדו-חמצני בעולם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg"
+    },
+    {
+      "id": 8,
+      "title": "פרפרים זוכרים",
+      "fact": "אפילו כשהם עוברים את שינוי הצורה מזחל לפרפר, הם שומרים על זיכרונות זהירים מילדותם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg"
+    },
+    {
+      "id": 9,
+      "title": "פרות יוצרות חברויות עמוקות",
+      "fact": "לפרות יש חברות הכי טובות, והן הופכות ללחוצות כשהן מופרדות מאותן חברות קרובות בעדר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1280px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
+    },
+    {
+      "id": 10,
+      "title": "נמר שלג נצפה יותר בטבע",
+      "fact": "אוכלוסיית נמרי השלג המסתורית מתחילה להתאושש בהרי ההימלאיה בזכות תוכניות הגנה בינלאומיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/1280px-Irbis4.JPG"
+    },
+    {
+      "id": 11,
+      "title": "אוקיינוס נקי מפלסטיק",
+      "fact": "ארגון 'The Ocean Cleanup' מוציא בשנה אלפי טונות של פלסטיק מכתם החוליית של האוקיינוס השקט.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_in_Sharm_el-Naga02.jpg/1280px-Beach_in_Sharm_el-Naga02.jpg"
+    },
+    {
+      "id": 12,
+      "title": "עטלפים מצילים חקלאות",
+      "fact": "עטלפי חרקים טבעיים חוסכים לחקלאים בארה\"ב מיליארדי דולרים בכל שנה בכך שהם טורפים מזיקים מזיקים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg"
+    },
+    {
+      "id": 13,
+      "title": "קופי מקוק רוחצים במעיינות",
+      "fact": "ביפן, קופי שלג למדו לרחוץ במעיינות חמים בדיוק כמו בני אדם כדי להירגע ולהתחמם במהלך החורף.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/1280px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg"
+    },
+    {
+      "id": 14,
+      "title": "שונית האלמוגים משתקמת",
+      "fact": "חלקים משונית המחסום הגדולה מראים סימני החלמה מרשימים בשנים האחרונות לאחר אירועי חום קשים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Blue_Linckia_Starfish.JPG"
+    },
+    {
+      "id": 15,
+      "title": "קרנפים שחורים גדלים",
+      "fact": "אוכלוסיית הצבות והקרנפים השחורים באפריקה רושמת עלייה איטית אך יציבה הודות למאבק בציד בלתי חוקי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1280px-Black_Rhino_at_Working_with_Wildlife.jpg"
+    },
+    {
+      "id": 16,
+      "title": "דולפינים עוזרים לדייגים",
+      "fact": "בברזיל, דולפיני בר משתפים פעולה עם תושבים מקומיים כדי לכוון דגים ישר לתוך הרשתות של הדייגים ההמומים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/1280px-Tursiops_truncatus_01.jpg"
+    },
+    {
+      "id": 17,
+      "title": "הזאבים שיקמו את הנהר",
+      "fact": "הכנסת זאבים לפארק ילוסטון שינתה את תוואי הנהרות, על ידי כך שהם צמצמו את צריכת הצמחים של האיילים, מה שחיזק את גדות הנהר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/YellowstonefallJUN05.JPG/1280px-YellowstonefallJUN05.JPG"
+    },
+    {
+      "id": 18,
+      "title": "עורבים יכולים להחליף מתנות",
+      "fact": "אנשים המאכילים עורבים באופן קבוע, לרוב מקבלים מהם חפצים מנצנצים וחפצי נוי קטנים כסמל של הוקרה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Corvus_corone_-near_Canford_Cliffs%2C_Poole%2C_England-8.jpg"
+    },
+    {
+      "id": 19,
+      "title": "דלתות חדשות לפינגווינים",
+      "fact": "בניו זילנד נבנו מנהרות צדדיות ייעודיות לזן נדיר של פינגווינים, כדי לאפשר להם לחצות כבישים בבטחה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+    },
+    {
+      "id": 20,
+      "title": "פילים זוכרים וחוגגים",
+      "fact": "עדרי פילים שמחים, מחבקים ומשמיעים קולות של שמחה כשהם נפגשים עם בני משפחה לאחר זמן רב.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg"
+    },
+    {
+      "id": 21,
+      "title": "גז שכבות האוזון נסגר",
+      "fact": "חור האוזון מעל אנטרקטיקה הצטמצם דרמטית מאז האיסור העולמי על שימוש בכימיקלים (CFCs), ומצופה להיסגר לחלוטין.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ISS041-E-105277_-_View_of_the_Northern_Territory.jpg/1280px-ISS041-E-105277_-_View_of_the_Northern_Territory.jpg"
+    },
+    {
+      "id": 22,
+      "title": "מיליוני עצים ביום",
+      "fact": "אזרחי אתיופיה שברו שיא עולמי חיובי כששתלו כ-350 מיליון עצים ביום אחד במטרה להילחם בשינויי האקלים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/1280px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg"
+    },
+    {
+      "id": 23,
+      "title": "צבי הים עשו קאמבק",
+      "fact": "עקב שבועות של חופים ריקים בעקבות סגרים בעולם, נצפתה מכת בקיעות היסטורית של צבי ים נדירים על החופים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/1280px-Chelonia_mydas_is_going_for_the_air_edit.jpg"
+    },
+    {
+      "id": 24,
+      "title": "קואלות ניצלו מכיליון",
+      "fact": "לאחר השריפות הקשות באוסטרליה, נרשמו מספר לידות רב משמעותית בשמורות הטבע שעזרו ליצוב האוכלוסייה מחדש.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+    },
+    {
+      "id": 25,
+      "title": "סיבים שהופכים לאדמה",
+      "fact": "חוקרים פיתחו סוג חדש של נייר ובדים שעשויים מקליפות של תפוחים ואננס שיכולים להתפרק בקומפוסט בקלות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/1280px-Compost_site_germany.JPG"
+    },
+    {
+      "id": 26,
+      "title": "פנדה ענקית כבר לא בסכנת הכחדה (2)",
+      "fact": "הודות למאמצי שימור אינטנסיביים, מספר הפנדות בטבע עלה משמעותית והן הוסרו מרשימת המינים בסכנת הכחדה חמורה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG"
+    },
+    {
+      "id": 27,
+      "title": "חתולים מגרגרים לריפוי (2)",
+      "fact": "מחקרים מראים שגירגור של חתול בתדירות של 25-150 הרץ יכול לשפר את צפיפות העצם ולסייע בריפוי פצעים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1280px-Cat_August_2010-4.jpg"
+    },
+    {
+      "id": 28,
+      "title": "שירת הציפורים מחזקת את הנפש (2)",
+      "fact": "האזנה לשירת ציפורים הוכחה כגורם המפחית חרדה ומשפר את מצב הרוח למשך שעות רבות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Eastern_towhee_in_JBWR_%2850084%29.webm/1280px--Eastern_towhee_in_JBWR_%2850084%29.webm.jpg"
+    },
+    {
+      "id": 29,
+      "title": "עצים מתקשרים דרך פטריות (2)",
+      "fact": "יערות הם רשת חברתית: עצים מעבירים חומרי הזנה ואזהרות אחד לשני דרך רשת סבוכה של פטריות תת-קרקעיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mycorrhizal_network.svg/1280px-Mycorrhizal_network.svg.png"
+    },
+    {
+      "id": 30,
+      "title": "כלבים יודעים לזהות לב טוב (2)",
+      "fact": "מחקרים מצביעים על כך שכלבים מסוגלים לזהות אנשים אמינים ויסרבו לעזור למי שמתנהג באנוכיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/1280px-Huskiesatrest.jpg"
+    },
+    {
+      "id": 31,
+      "title": "חזרתן של חיות הבר לאירופה (2)",
+      "fact": "מספרי הזאבים, הדובים ושעילי-הבר נמצאים בעלייה מתמדת ברחבי אירופה, סימן להשתקמות הטבע הפראי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/1280px-Eurasian_wolf_2.jpg"
+    },
+    {
+      "id": 32,
+      "title": "לוויתנים נגד התחממות (2)",
+      "fact": "צואת לוויתנים מעודדת גידול פיטופלנקטון, הסופג כ-40% מפליטות הפחמן הדו-חמצני בעולם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg"
+    },
+    {
+      "id": 33,
+      "title": "פרפרים זוכרים (2)",
+      "fact": "אפילו כשהם עוברים את שינוי הצורה מזחל לפרפר, הם שומרים על זיכרונות זהירים מילדותם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg"
+    },
+    {
+      "id": 34,
+      "title": "פרות יוצרות חברויות עמוקות (2)",
+      "fact": "לפרות יש חברות הכי טובות, והן הופכות ללחוצות כשהן מופרדות מאותן חברות קרובות בעדר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1280px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
+    },
+    {
+      "id": 35,
+      "title": "נמר שלג נצפה יותר בטבע (2)",
+      "fact": "אוכלוסיית נמרי השלג המסתורית מתחילה להתאושש בהרי ההימלאיה בזכות תוכניות הגנה בינלאומיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/1280px-Irbis4.JPG"
+    },
+    {
+      "id": 36,
+      "title": "אוקיינוס נקי מפלסטיק (2)",
+      "fact": "ארגון 'The Ocean Cleanup' מוציא בשנה אלפי טונות של פלסטיק מכתם החוליית של האוקיינוס השקט.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_in_Sharm_el-Naga02.jpg/1280px-Beach_in_Sharm_el-Naga02.jpg"
+    },
+    {
+      "id": 37,
+      "title": "עטלפים מצילים חקלאות (2)",
+      "fact": "עטלפי חרקים טבעיים חוסכים לחקלאים בארה\"ב מיליארדי דולרים בכל שנה בכך שהם טורפים מזיקים מזיקים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg"
+    },
+    {
+      "id": 38,
+      "title": "קופי מקוק רוחצים במעיינות (2)",
+      "fact": "ביפן, קופי שלג למדו לרחוץ במעיינות חמים בדיוק כמו בני אדם כדי להירגע ולהתחמם במהלך החורף.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/1280px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg"
+    },
+    {
+      "id": 39,
+      "title": "שונית האלמוגים משתקמת (2)",
+      "fact": "חלקים משונית המחסום הגדולה מראים סימני החלמה מרשימים בשנים האחרונות לאחר אירועי חום קשים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Blue_Linckia_Starfish.JPG"
+    },
+    {
+      "id": 40,
+      "title": "קרנפים שחורים גדלים (2)",
+      "fact": "אוכלוסיית הצבות והקרנפים השחורים באפריקה רושמת עלייה איטית אך יציבה הודות למאבק בציד בלתי חוקי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1280px-Black_Rhino_at_Working_with_Wildlife.jpg"
+    },
+    {
+      "id": 41,
+      "title": "דולפינים עוזרים לדייגים (2)",
+      "fact": "בברזיל, דולפיני בר משתפים פעולה עם תושבים מקומיים כדי לכוון דגים ישר לתוך הרשתות של הדייגים ההמומים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/1280px-Tursiops_truncatus_01.jpg"
+    },
+    {
+      "id": 42,
+      "title": "הזאבים שיקמו את הנהר (2)",
+      "fact": "הכנסת זאבים לפארק ילוסטון שינתה את תוואי הנהרות, על ידי כך שהם צמצמו את צריכת הצמחים של האיילים, מה שחיזק את גדות הנהר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/YellowstonefallJUN05.JPG/1280px-YellowstonefallJUN05.JPG"
+    },
+    {
+      "id": 43,
+      "title": "עורבים יכולים להחליף מתנות (2)",
+      "fact": "אנשים המאכילים עורבים באופן קבוע, לרוב מקבלים מהם חפצים מנצנצים וחפצי נוי קטנים כסמל של הוקרה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Corvus_corone_-near_Canford_Cliffs%2C_Poole%2C_England-8.jpg"
+    },
+    {
+      "id": 44,
+      "title": "דלתות חדשות לפינגווינים (2)",
+      "fact": "בניו זילנד נבנו מנהרות צדדיות ייעודיות לזן נדיר של פינגווינים, כדי לאפשר להם לחצות כבישים בבטחה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+    },
+    {
+      "id": 45,
+      "title": "פילים זוכרים וחוגגים (2)",
+      "fact": "עדרי פילים שמחים, מחבקים ומשמיעים קולות של שמחה כשהם נפגשים עם בני משפחה לאחר זמן רב.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg"
+    },
+    {
+      "id": 46,
+      "title": "גז שכבות האוזון נסגר (2)",
+      "fact": "חור האוזון מעל אנטרקטיקה הצטמצם דרמטית מאז האיסור העולמי על שימוש בכימיקלים (CFCs), ומצופה להיסגר לחלוטין.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ISS041-E-105277_-_View_of_the_Northern_Territory.jpg/1280px-ISS041-E-105277_-_View_of_the_Northern_Territory.jpg"
+    },
+    {
+      "id": 47,
+      "title": "מיליוני עצים ביום (2)",
+      "fact": "אזרחי אתיופיה שברו שיא עולמי חיובי כששתלו כ-350 מיליון עצים ביום אחד במטרה להילחם בשינויי האקלים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/1280px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg"
+    },
+    {
+      "id": 48,
+      "title": "צבי הים עשו קאמבק (2)",
+      "fact": "עקב שבועות של חופים ריקים בעקבות סגרים בעולם, נצפתה מכת בקיעות היסטורית של צבי ים נדירים על החופים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/1280px-Chelonia_mydas_is_going_for_the_air_edit.jpg"
+    },
+    {
+      "id": 49,
+      "title": "קואלות ניצלו מכיליון (2)",
+      "fact": "לאחר השריפות הקשות באוסטרליה, נרשמו מספר לידות רב משמעותית בשמורות הטבע שעזרו ליצוב האוכלוסייה מחדש.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+    },
+    {
+      "id": 50,
+      "title": "סיבים שהופכים לאדמה (2)",
+      "fact": "חוקרים פיתחו סוג חדש של נייר ובדים שעשויים מקליפות של תפוחים ואננס שיכולים להתפרק בקומפוסט בקלות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/1280px-Compost_site_germany.JPG"
+    },
+    {
+      "id": 51,
+      "title": "פנדה ענקית כבר לא בסכנת הכחדה (3)",
+      "fact": "הודות למאמצי שימור אינטנסיביים, מספר הפנדות בטבע עלה משמעותית והן הוסרו מרשימת המינים בסכנת הכחדה חמורה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG"
+    },
+    {
+      "id": 52,
+      "title": "חתולים מגרגרים לריפוי (3)",
+      "fact": "מחקרים מראים שגירגור של חתול בתדירות של 25-150 הרץ יכול לשפר את צפיפות העצם ולסייע בריפוי פצעים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1280px-Cat_August_2010-4.jpg"
+    },
+    {
+      "id": 53,
+      "title": "שירת הציפורים מחזקת את הנפש (3)",
+      "fact": "האזנה לשירת ציפורים הוכחה כגורם המפחית חרדה ומשפר את מצב הרוח למשך שעות רבות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Eastern_towhee_in_JBWR_%2850084%29.webm/1280px--Eastern_towhee_in_JBWR_%2850084%29.webm.jpg"
+    },
+    {
+      "id": 54,
+      "title": "עצים מתקשרים דרך פטריות (3)",
+      "fact": "יערות הם רשת חברתית: עצים מעבירים חומרי הזנה ואזהרות אחד לשני דרך רשת סבוכה של פטריות תת-קרקעיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mycorrhizal_network.svg/1280px-Mycorrhizal_network.svg.png"
+    },
+    {
+      "id": 55,
+      "title": "כלבים יודעים לזהות לב טוב (3)",
+      "fact": "מחקרים מצביעים על כך שכלבים מסוגלים לזהות אנשים אמינים ויסרבו לעזור למי שמתנהג באנוכיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/1280px-Huskiesatrest.jpg"
+    },
+    {
+      "id": 56,
+      "title": "חזרתן של חיות הבר לאירופה (3)",
+      "fact": "מספרי הזאבים, הדובים ושעילי-הבר נמצאים בעלייה מתמדת ברחבי אירופה, סימן להשתקמות הטבע הפראי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/1280px-Eurasian_wolf_2.jpg"
+    },
+    {
+      "id": 57,
+      "title": "לוויתנים נגד התחממות (3)",
+      "fact": "צואת לוויתנים מעודדת גידול פיטופלנקטון, הסופג כ-40% מפליטות הפחמן הדו-חמצני בעולם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg"
+    },
+    {
+      "id": 58,
+      "title": "פרפרים זוכרים (3)",
+      "fact": "אפילו כשהם עוברים את שינוי הצורה מזחל לפרפר, הם שומרים על זיכרונות זהירים מילדותם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg"
+    },
+    {
+      "id": 59,
+      "title": "פרות יוצרות חברויות עמוקות (3)",
+      "fact": "לפרות יש חברות הכי טובות, והן הופכות ללחוצות כשהן מופרדות מאותן חברות קרובות בעדר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1280px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
+    },
+    {
+      "id": 60,
+      "title": "נמר שלג נצפה יותר בטבע (3)",
+      "fact": "אוכלוסיית נמרי השלג המסתורית מתחילה להתאושש בהרי ההימלאיה בזכות תוכניות הגנה בינלאומיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/1280px-Irbis4.JPG"
+    },
+    {
+      "id": 61,
+      "title": "אוקיינוס נקי מפלסטיק (3)",
+      "fact": "ארגון 'The Ocean Cleanup' מוציא בשנה אלפי טונות של פלסטיק מכתם החוליית של האוקיינוס השקט.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_in_Sharm_el-Naga02.jpg/1280px-Beach_in_Sharm_el-Naga02.jpg"
+    },
+    {
+      "id": 62,
+      "title": "עטלפים מצילים חקלאות (3)",
+      "fact": "עטלפי חרקים טבעיים חוסכים לחקלאים בארה\"ב מיליארדי דולרים בכל שנה בכך שהם טורפים מזיקים מזיקים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg"
+    },
+    {
+      "id": 63,
+      "title": "קופי מקוק רוחצים במעיינות (3)",
+      "fact": "ביפן, קופי שלג למדו לרחוץ במעיינות חמים בדיוק כמו בני אדם כדי להירגע ולהתחמם במהלך החורף.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/1280px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg"
+    },
+    {
+      "id": 64,
+      "title": "שונית האלמוגים משתקמת (3)",
+      "fact": "חלקים משונית המחסום הגדולה מראים סימני החלמה מרשימים בשנים האחרונות לאחר אירועי חום קשים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Blue_Linckia_Starfish.JPG"
+    },
+    {
+      "id": 65,
+      "title": "קרנפים שחורים גדלים (3)",
+      "fact": "אוכלוסיית הצבות והקרנפים השחורים באפריקה רושמת עלייה איטית אך יציבה הודות למאבק בציד בלתי חוקי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1280px-Black_Rhino_at_Working_with_Wildlife.jpg"
+    },
+    {
+      "id": 66,
+      "title": "דולפינים עוזרים לדייגים (3)",
+      "fact": "בברזיל, דולפיני בר משתפים פעולה עם תושבים מקומיים כדי לכוון דגים ישר לתוך הרשתות של הדייגים ההמומים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/1280px-Tursiops_truncatus_01.jpg"
+    },
+    {
+      "id": 67,
+      "title": "הזאבים שיקמו את הנהר (3)",
+      "fact": "הכנסת זאבים לפארק ילוסטון שינתה את תוואי הנהרות, על ידי כך שהם צמצמו את צריכת הצמחים של האיילים, מה שחיזק את גדות הנהר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/YellowstonefallJUN05.JPG/1280px-YellowstonefallJUN05.JPG"
+    },
+    {
+      "id": 68,
+      "title": "עורבים יכולים להחליף מתנות (3)",
+      "fact": "אנשים המאכילים עורבים באופן קבוע, לרוב מקבלים מהם חפצים מנצנצים וחפצי נוי קטנים כסמל של הוקרה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Corvus_corone_-near_Canford_Cliffs%2C_Poole%2C_England-8.jpg"
+    },
+    {
+      "id": 69,
+      "title": "דלתות חדשות לפינגווינים (3)",
+      "fact": "בניו זילנד נבנו מנהרות צדדיות ייעודיות לזן נדיר של פינגווינים, כדי לאפשר להם לחצות כבישים בבטחה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+    },
+    {
+      "id": 70,
+      "title": "פילים זוכרים וחוגגים (3)",
+      "fact": "עדרי פילים שמחים, מחבקים ומשמיעים קולות של שמחה כשהם נפגשים עם בני משפחה לאחר זמן רב.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg"
+    },
+    {
+      "id": 71,
+      "title": "גז שכבות האוזון נסגר (3)",
+      "fact": "חור האוזון מעל אנטרקטיקה הצטמצם דרמטית מאז האיסור העולמי על שימוש בכימיקלים (CFCs), ומצופה להיסגר לחלוטין.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ISS041-E-105277_-_View_of_the_Northern_Territory.jpg/1280px-ISS041-E-105277_-_View_of_the_Northern_Territory.jpg"
+    },
+    {
+      "id": 72,
+      "title": "מיליוני עצים ביום (3)",
+      "fact": "אזרחי אתיופיה שברו שיא עולמי חיובי כששתלו כ-350 מיליון עצים ביום אחד במטרה להילחם בשינויי האקלים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/1280px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg"
+    },
+    {
+      "id": 73,
+      "title": "צבי הים עשו קאמבק (3)",
+      "fact": "עקב שבועות של חופים ריקים בעקבות סגרים בעולם, נצפתה מכת בקיעות היסטורית של צבי ים נדירים על החופים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/1280px-Chelonia_mydas_is_going_for_the_air_edit.jpg"
+    },
+    {
+      "id": 74,
+      "title": "קואלות ניצלו מכיליון (3)",
+      "fact": "לאחר השריפות הקשות באוסטרליה, נרשמו מספר לידות רב משמעותית בשמורות הטבע שעזרו ליצוב האוכלוסייה מחדש.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+    },
+    {
+      "id": 75,
+      "title": "סיבים שהופכים לאדמה (3)",
+      "fact": "חוקרים פיתחו סוג חדש של נייר ובדים שעשויים מקליפות של תפוחים ואננס שיכולים להתפרק בקומפוסט בקלות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/1280px-Compost_site_germany.JPG"
+    },
+    {
+      "id": 76,
+      "title": "פנדה ענקית כבר לא בסכנת הכחדה (4)",
+      "fact": "הודות למאמצי שימור אינטנסיביים, מספר הפנדות בטבע עלה משמעותית והן הוסרו מרשימת המינים בסכנת הכחדה חמורה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1280px-Grosser_Panda.JPG"
+    },
+    {
+      "id": 77,
+      "title": "חתולים מגרגרים לריפוי (4)",
+      "fact": "מחקרים מראים שגירגור של חתול בתדירות של 25-150 הרץ יכול לשפר את צפיפות העצם ולסייע בריפוי פצעים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1280px-Cat_August_2010-4.jpg"
+    },
+    {
+      "id": 78,
+      "title": "שירת הציפורים מחזקת את הנפש (4)",
+      "fact": "האזנה לשירת ציפורים הוכחה כגורם המפחית חרדה ומשפר את מצב הרוח למשך שעות רבות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Eastern_towhee_in_JBWR_%2850084%29.webm/1280px--Eastern_towhee_in_JBWR_%2850084%29.webm.jpg"
+    },
+    {
+      "id": 79,
+      "title": "עצים מתקשרים דרך פטריות (4)",
+      "fact": "יערות הם רשת חברתית: עצים מעבירים חומרי הזנה ואזהרות אחד לשני דרך רשת סבוכה של פטריות תת-קרקעיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mycorrhizal_network.svg/1280px-Mycorrhizal_network.svg.png"
+    },
+    {
+      "id": 80,
+      "title": "כלבים יודעים לזהות לב טוב (4)",
+      "fact": "מחקרים מצביעים על כך שכלבים מסוגלים לזהות אנשים אמינים ויסרבו לעזור למי שמתנהג באנוכיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/1280px-Huskiesatrest.jpg"
+    },
+    {
+      "id": 81,
+      "title": "חזרתן של חיות הבר לאירופה (4)",
+      "fact": "מספרי הזאבים, הדובים ושעילי-הבר נמצאים בעלייה מתמדת ברחבי אירופה, סימן להשתקמות הטבע הפראי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/1280px-Eurasian_wolf_2.jpg"
+    },
+    {
+      "id": 82,
+      "title": "לוויתנים נגד התחממות (4)",
+      "fact": "צואת לוויתנים מעודדת גידול פיטופלנקטון, הסופג כ-40% מפליטות הפחמן הדו-חמצני בעולם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg"
+    },
+    {
+      "id": 83,
+      "title": "פרפרים זוכרים (4)",
+      "fact": "אפילו כשהם עוברים את שינוי הצורה מזחל לפרפר, הם שומרים על זיכרונות זהירים מילדותם.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg"
+    },
+    {
+      "id": 84,
+      "title": "פרות יוצרות חברויות עמוקות (4)",
+      "fact": "לפרות יש חברות הכי טובות, והן הופכות ללחוצות כשהן מופרדות מאותן חברות קרובות בעדר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1280px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
+    },
+    {
+      "id": 85,
+      "title": "נמר שלג נצפה יותר בטבע (4)",
+      "fact": "אוכלוסיית נמרי השלג המסתורית מתחילה להתאושש בהרי ההימלאיה בזכות תוכניות הגנה בינלאומיות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/1280px-Irbis4.JPG"
+    },
+    {
+      "id": 86,
+      "title": "אוקיינוס נקי מפלסטיק (4)",
+      "fact": "ארגון 'The Ocean Cleanup' מוציא בשנה אלפי טונות של פלסטיק מכתם החוליית של האוקיינוס השקט.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_in_Sharm_el-Naga02.jpg/1280px-Beach_in_Sharm_el-Naga02.jpg"
+    },
+    {
+      "id": 87,
+      "title": "עטלפים מצילים חקלאות (4)",
+      "fact": "עטלפי חרקים טבעיים חוסכים לחקלאים בארה\"ב מיליארדי דולרים בכל שנה בכך שהם טורפים מזיקים מזיקים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg"
+    },
+    {
+      "id": 88,
+      "title": "קופי מקוק רוחצים במעיינות (4)",
+      "fact": "ביפן, קופי שלג למדו לרחוץ במעיינות חמים בדיוק כמו בני אדם כדי להירגע ולהתחמם במהלך החורף.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/1280px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg"
+    },
+    {
+      "id": 89,
+      "title": "שונית האלמוגים משתקמת (4)",
+      "fact": "חלקים משונית המחסום הגדולה מראים סימני החלמה מרשימים בשנים האחרונות לאחר אירועי חום קשים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Blue_Linckia_Starfish.JPG"
+    },
+    {
+      "id": 90,
+      "title": "קרנפים שחורים גדלים (4)",
+      "fact": "אוכלוסיית הצבות והקרנפים השחורים באפריקה רושמת עלייה איטית אך יציבה הודות למאבק בציד בלתי חוקי.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1280px-Black_Rhino_at_Working_with_Wildlife.jpg"
+    },
+    {
+      "id": 91,
+      "title": "דולפינים עוזרים לדייגים (4)",
+      "fact": "בברזיל, דולפיני בר משתפים פעולה עם תושבים מקומיים כדי לכוון דגים ישר לתוך הרשתות של הדייגים ההמומים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/1280px-Tursiops_truncatus_01.jpg"
+    },
+    {
+      "id": 92,
+      "title": "הזאבים שיקמו את הנהר (4)",
+      "fact": "הכנסת זאבים לפארק ילוסטון שינתה את תוואי הנהרות, על ידי כך שהם צמצמו את צריכת הצמחים של האיילים, מה שחיזק את גדות הנהר.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/YellowstonefallJUN05.JPG/1280px-YellowstonefallJUN05.JPG"
+    },
+    {
+      "id": 93,
+      "title": "עורבים יכולים להחליף מתנות (4)",
+      "fact": "אנשים המאכילים עורבים באופן קבוע, לרוב מקבלים מהם חפצים מנצנצים וחפצי נוי קטנים כסמל של הוקרה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Corvus_corone_-near_Canford_Cliffs%2C_Poole%2C_England-8.jpg"
+    },
+    {
+      "id": 94,
+      "title": "דלתות חדשות לפינגווינים (4)",
+      "fact": "בניו זילנד נבנו מנהרות צדדיות ייעודיות לזן נדיר של פינגווינים, כדי לאפשר להם לחצות כבישים בבטחה.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+    },
+    {
+      "id": 95,
+      "title": "פילים זוכרים וחוגגים (4)",
+      "fact": "עדרי פילים שמחים, מחבקים ומשמיעים קולות של שמחה כשהם נפגשים עם בני משפחה לאחר זמן רב.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/1280px-African_Bush_Elephant.jpg"
+    },
+    {
+      "id": 96,
+      "title": "גז שכבות האוזון נסגר (4)",
+      "fact": "חור האוזון מעל אנטרקטיקה הצטמצם דרמטית מאז האיסור העולמי על שימוש בכימיקלים (CFCs), ומצופה להיסגר לחלוטין.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/ISS041-E-105277_-_View_of_the_Northern_Territory.jpg/1280px-ISS041-E-105277_-_View_of_the_Northern_Territory.jpg"
+    },
+    {
+      "id": 97,
+      "title": "מיליוני עצים ביום (4)",
+      "fact": "אזרחי אתיופיה שברו שיא עולמי חיובי כששתלו כ-350 מיליון עצים ביום אחד במטרה להילחם בשינויי האקלים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Usamljeni_jasen_-_panoramio_%28cropped%29.jpg/1280px-Usamljeni_jasen_-_panoramio_%28cropped%29.jpg"
+    },
+    {
+      "id": 98,
+      "title": "צבי הים עשו קאמבק (4)",
+      "fact": "עקב שבועות של חופים ריקים בעקבות סגרים בעולם, נצפתה מכת בקיעות היסטורית של צבי ים נדירים על החופים.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chelonia_mydas_is_going_for_the_air_edit.jpg/1280px-Chelonia_mydas_is_going_for_the_air_edit.jpg"
+    },
+    {
+      "id": 99,
+      "title": "קואלות ניצלו מכיליון (4)",
+      "fact": "לאחר השריפות הקשות באוסטרליה, נרשמו מספר לידות רב משמעותית בשמורות הטבע שעזרו ליצוב האוכלוסייה מחדש.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg"
+    },
+    {
+      "id": 100,
+      "title": "סיבים שהופכים לאדמה (4)",
+      "fact": "חוקרים פיתחו סוג חדש של נייר ובדים שעשויים מקליפות של תפוחים ואננס שיכולים להתפרק בקומפוסט בקלות.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Compost_site_germany.JPG/1280px-Compost_site_germany.JPG"
+    }
+  ]
+}

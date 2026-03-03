@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -10,6 +12,10 @@
   --color-primary-foreground: var(--color-primary-foreground);
   --color-muted: var(--color-muted);
   --color-muted-foreground: var(--color-muted-foreground);
+  --color-activate-bg: var(--activate-bg);
+  --color-activate-orb-1: var(--activate-orb-1);
+  --color-activate-orb-2: var(--activate-orb-2);
+  --color-activate-grid-opacity: var(--activate-grid-opacity);
 }
 
 @layer base {
@@ -30,6 +36,12 @@
     --color-muted: #e5e5ea;
     --color-muted-foreground: #86868b;
 
+    /* Unique Page Variables */
+    --activate-bg: #ffffff;
+    --activate-orb-1: rgba(251, 191, 36, 0.2); /* Amber 400 */
+    --activate-orb-2: rgba(56, 189, 248, 0.2); /* Sky 400 */
+    --activate-grid-opacity: 0.08;
+
     /* Radii */
     --radius-xl: 1rem;
     --radius-2xl: 1.5rem;
@@ -49,11 +61,21 @@
     --color-primary-foreground: #ffffff;
     --color-muted: #2c2c2e;
     --color-muted-foreground: #86868b;
+
+    /* Unique Page Variables */
+    --activate-bg: #070b14;
+    --activate-orb-1: rgba(37, 99, 235, 0.1); /* Blue 600 */
+    --activate-orb-2: rgba(79, 70, 229, 0.1); /* Indigo 600 */
+    --activate-grid-opacity: 0.1;
   }
 
   /* Force global font application to override system defaults */
   * {
     font-family: inherit;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
@@ -105,6 +127,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-shift 6s ease-in-out infinite alternate;
+  }
+
+  .title-depth {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15)) drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
+  }
+
+  .dark .title-depth {
+    filter: drop-shadow(0 0 40px rgba(10, 132, 255, 0.3));
   }
 }
 

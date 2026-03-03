@@ -1,31 +1,20 @@
 import { NextResponse } from "next/server";
 import localPuzzles from "@/lib/chess-puzzles.json";
 
+// Explicit allowlist — any other value is rejected with 400 Bad Request.
+const VALID_DIFFICULTIES = new Set(["all", "easy", "medium", "hard", "extreme"]);
+
 export async function GET(request: Request) {
-    try {
-        // Attempt to fetch a puzzle from the public open API:
-        // This is an open API that mirrors lichess puzzles.
-        const res = await fetch("https://chess-puzzles.p.rapidapi.com/?themes=advantage", {
-            method: "GET",
-            headers: {
-                // We would ideally need a key here for RapidAPI, so let's use another method or just fallback.
-                // Actually, let's use the local JSON for guaranteed success. 
-                // In a real scenario we could hit a public endpoint if one existed without auth.
-            },
-            next: { revalidate: 0 }
-        });
-
-        if (res.ok) {
-            const data = await res.json();
-            return NextResponse.json(data);
-        }
-    } catch (error) {
-        console.error("Error fetching remote puzzle, falling back to local database.", error);
-    }
-
-    // Fallback to local database for guaranteed infinite loop
     const url = new URL(request.url);
     const difficulty = url.searchParams.get("difficulty") || "all";
+
+    // Input validation — reject unexpected values immediately.
+    if (!VALID_DIFFICULTIES.has(difficulty)) {
+        return NextResponse.json(
+            { error: "Invalid difficulty. Must be one of: all, easy, medium, hard, extreme." },
+            { status: 400 }
+        );
+    }
 
     let filteredPuzzles = localPuzzles;
     if (difficulty !== "all") {
@@ -37,7 +26,7 @@ export async function GET(request: Request) {
             return true;
         });
 
-        // If we filter too much and get nothing, fallback to all
+        // Fallback to all puzzles if the filter yields nothing.
         if (filteredPuzzles.length === 0) {
             filteredPuzzles = localPuzzles;
         }

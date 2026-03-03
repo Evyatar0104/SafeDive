@@ -6,6 +6,24 @@ import { Article, allArticles } from "@/data/articles";
 import { ChevronRight, ChevronLeft, Sparkles, Share2 } from "lucide-react";
 import Link from "next/link";
 import { ActiveBackground } from "@/components/ui/ActiveBackground";
+import { ScrollAnimate } from "@/components/ui/ScrollAnimate";
+import { TapAnimate } from "@/components/ui/TapAnimate";
+
+// Safely renders **bold** markdown as React <strong> elements.
+// Never injects raw HTML – eliminates dangerouslySetInnerHTML XSS risk.
+function parseBold(text: string): React.ReactNode[] {
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+            return (
+                <strong key={i} className="font-bold text-foreground">
+                    {part.slice(2, -2)}
+                </strong>
+            );
+        }
+        return part;
+    });
+}
 
 export default function KnowledgeLab() {
     // Navigation & Data State
@@ -136,9 +154,11 @@ export default function KnowledgeLab() {
                                         <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase border border-primary/20 shadow-sm">
                                             {currentArticle.category}
                                         </span>
-                                        <button onClick={() => handleShare(currentArticle)} className="p-2 rounded-full bg-card hover:bg-card/80 text-primary transition-colors border border-white/5 shadow-sm">
-                                            <Share2 className="w-5 h-5" />
-                                        </button>
+                                        <TapAnimate>
+                                            <button onClick={() => handleShare(currentArticle)} className="p-2 rounded-full bg-card hover:bg-card/80 text-primary transition-colors border border-white/5 shadow-sm">
+                                                <Share2 className="w-5 h-5" />
+                                            </button>
+                                        </TapAnimate>
                                     </div>
 
                                     <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight">
@@ -160,48 +180,52 @@ export default function KnowledgeLab() {
                                 <div className="prose prose-zinc dark:prose-invert max-w-none 
                     prose-p:leading-relaxed prose-p:text-[1.1rem] prose-p:font-medium text-foreground/90">
                                     {currentArticle.article_body.split('\n').map((paragraph, i) => (
-                                        <p key={i} className="mb-5 last:mb-0" dangerouslySetInnerHTML={{
-                                            __html: paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-foreground">$1</strong>')
-                                        }} />
+                                        <p key={i} className="mb-5 last:mb-0">
+                                            {parseBold(paragraph)}
+                                        </p>
                                     ))}
                                 </div>
 
                                 {/* Active Mission */}
-                                <div className="mt-2 p-6 rounded-[2rem] bg-gradient-to-br from-indigo-50/50 to-primary/5 dark:from-indigo-900/20 dark:to-primary/10 border border-primary/20 shadow-xl shadow-primary/5 relative overflow-hidden group">
-                                    <div className="absolute top-[-20%] right-[-10%] opacity-10 drop-shadow-2xl transition-transform group-hover:scale-110">
-                                        <Sparkles className="w-40 h-40 text-primary" />
-                                    </div>
+                                <ScrollAnimate yOffset={30}>
+                                    <div className="mt-2 p-6 rounded-[2rem] bg-gradient-to-br from-indigo-50/50 to-primary/5 dark:from-indigo-900/20 dark:to-primary/10 border border-primary/20 shadow-xl shadow-primary/5 relative overflow-hidden group">
+                                        <div className="absolute top-[-20%] right-[-10%] opacity-10 drop-shadow-2xl transition-transform group-hover:scale-110">
+                                            <Sparkles className="w-40 h-40 text-primary" />
+                                        </div>
 
-                                    <h3 className="text-2xl font-black text-primary mb-4 flex items-center gap-2 relative z-10">
-                                        <Sparkles className="w-6 h-6 flex-shrink-0" />
-                                        המשימה
-                                    </h3>
-                                    <div className="space-y-4 relative z-10">
-                                        <h4 className="font-bold text-foreground text-lg">{currentArticle.active_mission.title}</h4>
-                                        <p className="text-foreground/80 whitespace-pre-wrap leading-relaxed font-medium">
-                                            {currentArticle.active_mission.description}
-                                        </p>
-                                        <div className="mt-4 p-4 bg-background/60 rounded-2xl text-sm font-bold text-foreground/80 border border-foreground/5 dark:border-white/10 flex items-start gap-3 shadow-inner">
-                                            <span className="text-primary flex-shrink-0 text-lg">🎯</span>
-                                            <span className="leading-snug">{currentArticle.active_mission.output_goal}</span>
+                                        <h3 className="text-2xl font-black text-primary mb-4 flex items-center gap-2 relative z-10">
+                                            <Sparkles className="w-6 h-6 flex-shrink-0" />
+                                            המשימה
+                                        </h3>
+                                        <div className="space-y-4 relative z-10">
+                                            <h4 className="font-bold text-foreground text-lg">{currentArticle.active_mission.title}</h4>
+                                            <p className="text-foreground/80 whitespace-pre-wrap leading-relaxed font-medium">
+                                                {currentArticle.active_mission.description}
+                                            </p>
+                                            <div className="mt-4 p-4 bg-background/60 rounded-2xl text-sm font-bold text-foreground/80 border border-foreground/5 dark:border-white/10 flex items-start gap-3 shadow-inner">
+                                                <span className="text-primary flex-shrink-0 text-lg">🎯</span>
+                                                <span className="leading-snug">{currentArticle.active_mission.output_goal}</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </ScrollAnimate>
 
                                 {/* Teaser for next */}
                                 {nextArticle && (
-                                    <button
-                                        onClick={handleNext}
-                                        className="mt-6 mb-4 w-full text-right p-5 rounded-3xl bg-card border border-foreground/5 dark:border-white/5 shadow-md hover:shadow-lg transition-all active:scale-[0.98] group flex justify-between items-center"
-                                    >
-                                        <div className="flex flex-col pr-2 gap-1">
-                                            <span className="text-xs text-primary font-bold tracking-wider uppercase">הבא בתור</span>
-                                            <span className="font-bold text-foreground text-lg leading-tight line-clamp-1">{nextArticle.title}</span>
-                                        </div>
-                                        <div className="w-12 h-12 rounded-full bg-blue-600/10 flex items-center justify-center text-blue-600 dark:text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors flex-shrink-0">
-                                            <ChevronLeft className="w-6 h-6" />
-                                        </div>
-                                    </button>
+                                    <TapAnimate className="mt-6 mb-4 w-full">
+                                        <button
+                                            onClick={handleNext}
+                                            className="w-full text-right p-5 rounded-3xl bg-card border border-foreground/5 dark:border-white/5 shadow-md hover:shadow-lg transition-all group flex justify-between items-center"
+                                        >
+                                            <div className="flex flex-col pr-2 gap-1">
+                                                <span className="text-xs text-primary font-bold tracking-wider uppercase">הבא בתור</span>
+                                                <span className="font-bold text-foreground text-lg leading-tight line-clamp-1">{nextArticle.title}</span>
+                                            </div>
+                                            <div className="w-12 h-12 rounded-full bg-blue-600/10 flex items-center justify-center text-blue-600 dark:text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors flex-shrink-0">
+                                                <ChevronLeft className="w-6 h-6" />
+                                            </div>
+                                        </button>
+                                    </TapAnimate>
                                 )}
                             </motion.article>
                         </AnimatePresence>
@@ -211,22 +235,26 @@ export default function KnowledgeLab() {
                     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 pb-[max(env(safe-area-inset-bottom),_2rem)] pt-6 bg-card/90 backdrop-blur-3xl border-t border-white/10 shadow-[0_-20px_40px_rgba(0,0,0,0.25)]">
                         <div className="max-w-md mx-auto flex flex-col gap-4">
                             <div className="flex items-center justify-between gap-3 px-2">
-                                <button
-                                    onClick={handleBack}
-                                    disabled={history.length === 0}
-                                    className="flex justify-center items-center w-14 h-14 rounded-full bg-black/5 dark:bg-white/10 text-foreground hover:bg-black/10 dark:hover:bg-white/20 disabled:opacity-30 disabled:cursor-not-allowed transition-all active:scale-[0.94] shadow-sm border border-foreground/5 dark:border-white/10"
-                                    aria-label="Previous article"
-                                >
-                                    <ChevronRight className="w-6 h-6" />
-                                </button>
+                                <TapAnimate>
+                                    <button
+                                        onClick={handleBack}
+                                        disabled={history.length === 0}
+                                        className="flex justify-center items-center w-14 h-14 rounded-full bg-black/5 dark:bg-white/10 text-foreground hover:bg-black/10 dark:hover:bg-white/20 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-sm border border-foreground/5 dark:border-white/10"
+                                        aria-label="Previous article"
+                                    >
+                                        <ChevronRight className="w-6 h-6" />
+                                    </button>
+                                </TapAnimate>
 
-                                <button
-                                    onClick={handleNext}
-                                    className="flex-1 flex items-center justify-center gap-2 h-14 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-bold text-lg shadow-xl shadow-blue-600/30 transition-all active:scale-[0.98] border border-blue-400/30"
-                                >
-                                    מאמר הבא
-                                    <ChevronLeft className="w-5 h-5" />
-                                </button>
+                                <TapAnimate className="flex-1">
+                                    <button
+                                        onClick={handleNext}
+                                        className="w-full h-full flex items-center justify-center gap-2 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-bold text-lg shadow-xl shadow-blue-600/30 transition-all border border-blue-400/30 py-3"
+                                    >
+                                        מאמר הבא
+                                        <ChevronLeft className="w-5 h-5" />
+                                    </button>
+                                </TapAnimate>
                             </div>
 
                             <div className="flex justify-center mt-1">

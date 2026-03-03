@@ -8,7 +8,7 @@ import { SettingsMenu } from "@/components/ui/SettingsMenu";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-full py-0 pt-2 pb-6 space-y-6 relative">
+    <div className="flex flex-col min-h-screen w-full max-w-md mx-auto px-4 py-8 space-y-8 relative">
       <ActiveBackground />
 
       <header className="relative z-20 mb-6 px-6 pt-4 flex flex-col items-center text-center">
@@ -26,9 +26,11 @@ export default function Home() {
           className="relative z-10 w-full flex flex-col items-center justify-center"
           dir="ltr"
         >
-          <h1 className="flex flex-col items-center justify-center text-[100px] leading-[0.8] font-black tracking-tighter animated-gradient-text drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] dark:drop-shadow-[0_8px_16px_rgba(0,0,0,0.8)] py-4">
-            <span>Safe</span>
-            <span>Zone</span>
+          <h1 className="flex flex-col items-center justify-center text-[100px] leading-[0.8] font-black tracking-tighter text-black dark:text-white py-4 title-depth">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-white dark:to-gray-300 relative">
+              Safe
+            </span>
+            <span className="text-primary tracking-tight">Zone</span>
           </h1>
         </motion.div>
 
@@ -54,8 +56,8 @@ export default function Home() {
             description="מאמרים קצרים במגוון נושאים עם אופציה למשימות העשרה מעמיקות"
             icon={BookOpen}
             href="/knowledge-lab"
-            colorClass="bg-card/30 dark:bg-card/20 text-foreground"
-            iconColorClass="bg-gradient-to-br from-amber-400 to-amber-600 text-white shadow-amber-500/20"
+            colorClass="bg-white dark:bg-[#1a1c23]/60 text-foreground border border-black/5 dark:border-white/10"
+            iconColorClass="bg-gradient-to-br from-amber-400 to-amber-600 text-white shadow-[0_8px_16px_rgba(251,191,36,0.25)]"
           />
         </div>
 
@@ -65,8 +67,8 @@ export default function Home() {
             description="טיימר לוויסות נשימה בעת לחץ"
             icon={Wind}
             href="/breathing"
-            colorClass="bg-card/30 dark:bg-card/20 text-foreground"
-            iconColorClass="bg-gradient-to-br from-emerald-400 to-emerald-600 text-white shadow-emerald-500/20"
+            colorClass="bg-white dark:bg-[#1a1c23]/60 text-foreground border border-black/5 dark:border-white/10"
+            iconColorClass="bg-gradient-to-br from-emerald-400 to-emerald-600 text-white shadow-[0_8px_16px_rgba(52,211,153,0.25)]"
           />
         </div>
 
@@ -76,8 +78,8 @@ export default function Home() {
             description="מאגר של פאזלי שחמט וחידות היגיון"
             icon={Brain}
             href="/activate-mind"
-            colorClass="bg-card/30 dark:bg-card/20 text-foreground"
-            iconColorClass="bg-gradient-to-br from-blue-400 to-blue-600 text-white shadow-blue-500/20"
+            colorClass="bg-white dark:bg-[#1a1c23]/60 text-foreground border border-black/5 dark:border-white/10"
+            iconColorClass="bg-gradient-to-br from-blue-400 to-blue-600 text-white shadow-[0_8px_16px_rgba(96,165,250,0.25)]"
           />
         </div>
 
@@ -87,8 +89,8 @@ export default function Home() {
             description="עובדות קלילות ונופים מרחבי העולם"
             icon={Palmtree}
             href="/escapism"
-            colorClass="bg-card/30 dark:bg-card/20 text-foreground"
-            iconColorClass="bg-gradient-to-br from-purple-400 to-purple-600 text-white shadow-purple-500/20"
+            colorClass="bg-white dark:bg-[#1a1c23]/60 text-foreground border border-black/5 dark:border-white/10"
+            iconColorClass="bg-gradient-to-br from-purple-400 to-purple-600 text-white shadow-[0_8px_16px_rgba(192,132,252,0.25)]"
           />
         </div>
       </motion.div>

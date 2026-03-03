@@ -42,8 +42,8 @@ export default function RootLayout({
         className={`${assistant.variable} font-sans antialiased bg-background text-foreground transition-colors duration-300`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex min-h-screen flex-col items-center justify-start py-4 px-4 overflow-x-hidden">
-            <main className="w-full max-w-md flex-1 safe-area-pt pb-6">
+          <div className="flex min-h-screen flex-col overflow-x-hidden">
+            <main className="w-full flex-1 safe-area-pt">
               {children}
             </main>
           </div>

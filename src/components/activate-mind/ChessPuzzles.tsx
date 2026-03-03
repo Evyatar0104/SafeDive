@@ -5,6 +5,7 @@ import { Chess, Move } from "chess.js";
 import { Chessboard } from "react-chessboard";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, ArrowLeft, Eye, RefreshCw, Trophy, Zap } from "lucide-react";
+import { logger } from "@/lib/logger";
 
 interface PuzzleData {
     id: string;
@@ -29,12 +30,13 @@ export function ChessPuzzles() {
     const [optionSquares, setOptionSquares] = useState<{ [square: string]: { background: string; borderRadius?: string } }>({});
     const [rightClickedSquares, setRightClickedSquares] = useState<{ [square: string]: { backgroundColor: string } }>({});
 
-    const loadPuzzle = useCallback(async (existingData?: PuzzleData) => {
+    const loadPuzzle = useCallback(async (existingData?: PuzzleData, overrideDifficulty?: string) => {
         setLoading(true);
         try {
             let data = existingData;
             if (!data) {
-                const res = await fetch(`/api/chess-puzzle?difficulty=${difficulty}`);
+                const fetchDiff = overrideDifficulty || difficulty;
+                const res = await fetch(`/api/chess-puzzle?difficulty=${fetchDiff}`);
                 data = await res.json();
             }
 
@@ -64,7 +66,7 @@ export function ChessPuzzles() {
                 }, 600);
             }
         } catch (e) {
-            console.error(e);
+            logger.error("Failed to load chess puzzle:", e);
         } finally {
             setLoading(false);
         }
@@ -288,7 +290,7 @@ export function ChessPuzzles() {
                                 initial={{ opacity: 0, y: -10 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0, y: -10 }}
-                                className="absolute top-full mt-2 right-0 bg-[#1a1a1c]/95 backdrop-blur-md border border-white/10 rounded-2xl shadow-2xl overflow-hidden min-w-[200px] z-[100]"
+                                className="absolute top-full mt-2 right-0 bg-card/95 backdrop-blur-md border border-black/10 dark:border-white/10 rounded-2xl shadow-2xl overflow-hidden min-w-[200px] z-[100]"
                             >
                                 <div className="p-2 space-y-1">
                                     {[
@@ -303,11 +305,11 @@ export function ChessPuzzles() {
                                             onClick={() => {
                                                 setDifficulty(opt.id as any);
                                                 setIsDifficultyMenuOpen(false);
-                                                loadPuzzle();
+                                                loadPuzzle(undefined, opt.id);
                                             }}
                                             className={`w-full text-right px-4 py-3 rounded-xl transition-all duration-200 flex flex-col items-end gap-0.5 ${difficulty === opt.id
                                                 ? 'bg-primary/20 text-primary border border-primary/30'
-                                                : 'hover:bg-white/5 text-white/90 border border-transparent'
+                                                : 'hover:bg-black/5 dark:hover:bg-white/5 text-foreground/90 border border-transparent'
                                                 }`}
                                         >
                                             <span className="text-sm font-bold">{opt.label}</span>
@@ -322,9 +324,9 @@ export function ChessPuzzles() {
 
                 <div className="flex gap-1.5 flex-wrap justify-end items-center">
                     {/* Turn Indicator */}
-                    <div className="flex items-center gap-1.5 bg-muted/30 px-2 py-1 rounded-md border border-white/5">
-                        <div className={`w-2.5 h-2.5 rounded-full border border-white/20 ${game.turn() === 'w' ? 'bg-white' : 'bg-black'}`} />
-                        <span className="text-[11px] font-medium text-white/80">
+                    <div className="flex items-center gap-1.5 bg-muted/30 px-2 py-1 rounded-md border border-black/5 dark:border-white/5">
+                        <div className={`w-2.5 h-2.5 rounded-full border border-black/20 dark:border-white/20 ${game.turn() === 'w' ? 'bg-white' : 'bg-black'}`} />
+                        <span className="text-[11px] font-medium text-foreground/80">
                             {game.turn() === 'w' ? 'תור הלבן' : 'תור השחור'}
                         </span>
                     </div>
@@ -409,7 +411,7 @@ export function ChessPuzzles() {
                 </button>
 
                 <button
-                    onClick={() => loadPuzzle()}
+                    onClick={() => loadPuzzle(undefined, difficulty)}
                     disabled={loading}
                     className="flex flex-col items-center justify-center p-3 sm:p-4 bg-primary text-primary-foreground hover:brightness-110 rounded-2xl transition-all disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 gap-1 shadow-md"
                 >
