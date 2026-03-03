@@ -32,20 +32,20 @@ export function TaskCard({
         >
             <Link href={href} className="block w-full h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-[2rem]">
                 <div
-                    className={`flex flex-col p-5 h-full gap-3 rounded-[2rem] shadow-[0_16px_48px_rgba(0,0,0,0.15)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.4)] border border-black/10 dark:border-white/10 relative overflow-hidden bg-white/80 dark:bg-[#1a1c23]/80 backdrop-blur-[40px] saturate-150 transition-all duration-300 ${colorClass}`}
+                    className={`flex flex-col p-5 md:p-7 h-full gap-3 md:gap-4 rounded-[2rem] shadow-[0_16px_48px_rgba(0,0,0,0.15)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.4)] border border-black/10 dark:border-white/10 relative overflow-hidden bg-white/80 dark:bg-[#1a1c23]/80 backdrop-blur-[40px] saturate-150 transition-all duration-300 md:hover:shadow-[0_20px_60px_rgba(0,0,0,0.2)] md:dark:hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] md:hover:border-primary/20 ${colorClass}`}
                 >
                     {/* Add a subtle highlight for glass reflection */}
                     <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-black/5 dark:from-white/10 dark:via-transparent dark:to-transparent pointer-events-none" />
 
                     <div className="flex items-center justify-between gap-4 relative z-10 w-full">
-                        <h2 className="text-3xl font-bold tracking-tight leading-none text-foreground">{title}</h2>
-                        <div className={`flex-shrink-0 w-14 h-14 rounded-2xl flex items-center justify-center shadow-md ${iconColorClass}`}>
-                            <Icon className="w-8 h-8" strokeWidth={2.5} />
+                        <h2 className="text-3xl md:text-2xl lg:text-3xl font-bold tracking-tight leading-none text-foreground">{title}</h2>
+                        <div className={`flex-shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center shadow-md ${iconColorClass}`}>
+                            <Icon className="w-8 h-8 md:w-9 md:h-9" strokeWidth={2.5} />
                         </div>
                     </div>
 
                     {description && (
-                        <p className="text-lg text-foreground/80 leading-snug font-medium relative z-10 text-right w-full">{description}</p>
+                        <p className="text-lg md:text-base lg:text-lg text-foreground/80 leading-snug font-medium relative z-10 text-right w-full">{description}</p>
                     )}
                 </div>
             </Link>

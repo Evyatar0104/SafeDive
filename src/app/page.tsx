@@ -8,10 +8,10 @@ import { SettingsMenu } from "@/components/ui/SettingsMenu";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-full max-w-md mx-auto px-4 py-8 space-y-8 relative">
+    <div className="flex flex-col min-h-screen w-full max-w-md md:max-w-3xl lg:max-w-5xl mx-auto px-4 md:px-8 py-8 md:py-12 lg:py-16 space-y-8 relative">
       <ActiveBackground />
 
-      <header className="relative z-20 mb-6 px-6 pt-4 flex flex-col items-center text-center">
+      <header className="relative z-20 mb-6 md:mb-10 px-6 pt-4 flex flex-col items-center text-center">
 
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -26,7 +26,7 @@ export default function Home() {
           className="relative z-10 w-full flex flex-col items-center justify-center"
           dir="ltr"
         >
-          <h1 className="flex flex-col items-center justify-center text-[100px] leading-[0.8] font-black tracking-tighter text-black dark:text-white py-4 title-depth">
+          <h1 className="flex flex-col items-center justify-center text-[100px] md:text-[80px] lg:text-[90px] leading-[0.8] font-black tracking-tighter text-black dark:text-white py-4 title-depth md:flex-row md:gap-4 md:leading-none">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-white dark:to-gray-300 relative">
               Safe
             </span>
@@ -35,7 +35,7 @@ export default function Home() {
         </motion.div>
 
         <motion.p
-          className="text-xl font-bold text-foreground/70 tracking-tight max-w-[280px] mx-auto leading-tight mt-6 relative z-10 text-center"
+          className="text-xl md:text-2xl font-bold text-foreground/70 tracking-tight max-w-[280px] md:max-w-md mx-auto leading-tight mt-6 relative z-10 text-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
@@ -45,7 +45,7 @@ export default function Home() {
       </header>
 
       <motion.div
-        className="flex flex-col gap-4 w-full px-4 relative z-10"
+        className="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-6 w-full px-4 md:px-0 relative z-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}

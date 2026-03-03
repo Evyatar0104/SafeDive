@@ -16,7 +16,7 @@ export function SettingsMenu() {
 
     if (!mounted) {
         return (
-            <div className="w-full mt-6 px-4 pb-8">
+            <div className="w-full mt-6 px-4 pb-8 md:max-w-md md:mx-auto">
                 <div className="w-full bg-card/30 dark:bg-card/20 backdrop-blur-xl border border-white/20 dark:border-white/10 rounded-2xl p-4 liquid-glass">
                     <div className="text-sm font-bold text-foreground/80 mb-3 text-right">הגדרות תצוגה</div>
                     <div className="grid grid-cols-3 gap-2 opacity-0">
@@ -30,7 +30,7 @@ export function SettingsMenu() {
     }
 
     return (
-        <div className="w-full mt-6 px-4 pb-8">
+        <div className="w-full mt-6 px-4 pb-8 md:max-w-md md:mx-auto">
             <div className="w-full bg-card/30 dark:bg-card/20 backdrop-blur-xl border border-white/20 dark:border-white/10 rounded-2xl p-4 liquid-glass">
                 <div className="text-sm font-bold text-foreground/80 mb-3 text-right">הגדרות תצוגה</div>
                 <div className="grid grid-cols-3 gap-2">
